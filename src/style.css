@@ -1,0 +1,64 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background: linear-gradient(to top, pink 88%, gold 92%);
+}
+header
+{
+    display: flex;
+    justify-content: space-around;
+}
+header div.logo
+{
+    width: 50px;
+    height: 50px;
+    display: flex;
+}
+header div.logo h1
+{
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+header nav button
+{
+    color: #333333;
+    border: none;
+    border-radius: 4px;
+    background: red;
+
+    padding: 2px;
+    margin: 2px;
+
+    font-size: 8px;
+}
+
+header nav button:hover
+{
+    color: #ffffff;
+    border: solid black 1px;
+    background: brown;
+
+    padding: 1px;
+
+    cursor: pointer;
+}
+
+header nav
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+footer
+{
+    position: fixed;
+    top: 95%;
+}
